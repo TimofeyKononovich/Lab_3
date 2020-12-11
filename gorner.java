@@ -457,5 +457,8 @@ class gorner {
             System.out.println("Ошибка преобразования строки '" + args[i] + "' в число типа Double");
             System.exit(-2);
         }
+        MainFrame frame = new MainFrame(coefficients);
+        frame.setDefaultCloseOperation(3);
+        frame.setVisible(true);
     }
 }
